@@ -1,9 +1,15 @@
-# geoportal-server-harvester
-As part of the evolution of Geoportal Server, the harvesting capability has been separated into its own module. This is because there are use cases where the harvesting can be used as a stand-alone broker between catalogs of content. 
+# Geoportal Server Harvester
+[![apache licensed](https://img.shields.io/badge/license-Apache%202.0-orange.svg?style=flat-square)](https://raw.githubusercontent.com/Esri/geoportal-server-harvester/master/LICENSE.txt)
 
-This repository thus contains the harvesting capability, while it's sibling [geoportal-server-catalog](https://github.com/Esri/geoportal-server-catalog) is the new catalog of Geoportal Server.
+Geoportal Server Harvester is the next generation metadata harvester, enabling harvesting from many different sources into Geoportal Server Catalog, a local folder, ArcGIS Enterprise Portal, or ArcGIS Online. 
 
-For details about geoportal server harvester, please visit the [wiki](https://github.com/Esri/geoportal-server-harvester/wiki).
+Geoportal Server v2 now provides the catalog and harvesting capabilities as separate modules. Separate modules are useful when users want to use the harvesting capabilities as a stand-alone broker between catalogs of content.
+
+This repository contains the capability of Geoportal Server Harvester, while it's sibling [Geoportal Server Catalog](https://github.com/Esri/geoportal-server-catalog) is managed as a separate repository.
+
+(Note: The long-lived Geoportal Server v1.x is now retired; its archive is [available here](https://github.com/Esri/geoportal-server).)
+
+For details about Geoportal Server Harvester, please visit the [wiki](https://github.com/Esri/geoportal-server-harvester/wiki).
 
 To report an issue, please go to [issues](https://github.com/Esri/geoportal-server-harvester/issues).
 
